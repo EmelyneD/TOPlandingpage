@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    min-height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6c3a07;
+    padding: 0 100px 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul, li {
+    display: flex;
+    gap: 10px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    padding: 100px 100px 50px;
+    justify-content: space-between;
+    background-color: #6c3a07;
+    color: white;
+}
+
+.content .description {
+    max-width: 40%;
+    
+}
+
+.content img {
+    height: auto;
+    max-width: 400px;
+    height: auto;
+}
+
+.sponsor-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin-top: 10px;
+    max-width: 120px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    border-color: black;
+}
+
+.sponsor-button-1 {
+    color: white;
+    text-decoration: none;
+}
+
+.sponsor-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    margin-top: 10px;
+    max-width: 120px;
+    max-height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border-color: black;
+}
+
+.sponsor-button-2 {
+    color: white;
+    text-decoration: none;
+    max-height: 80px;
+}
+
+.profile-header {
+    display: flex;
+    margin: 15px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    gap: 30px;
+}
+
+.profile-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.profile-cards img {
+    max-width: 140px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: .3em;
+    opacity: .7;
+    margin: 0 .6em 0 0;
+    border: solid 1px red;
+}
+
+.card-content {
+    padding: 5px;
+font-size: .7rem;
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+    min-height: 200px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+blockquote {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 10px;
+    color: white;
+    border-left: 10px solid #f9f9f9;
+    max-width: 50%;
+}
+.cite {
+    text-align: right;
+}
+
+cite {
+    font-size: .8rem;
+    font-weight: 900;
+    padding: 10px;
+    color: white;
+    max-width: 50%;
+}
+
+.reminder {
+    display: flex;
+    background-color: #6c3a07;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reminder-box {
+    width: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.signup {
+    margin: 30px;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    margin: 0;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
